@@ -13,7 +13,7 @@ sections:
       username: me
       text: ''
       headings:
-        about: 'ACE-Health: AI-driven climate extremes attribution, multiscale health projection, and climate-health burden mitigation'
+        about: 'ACE-Health: **A**I-driven **C**limate **E**xtremes attribution, multiscale **Health** projection, and climate-health burden mitigation'
         education: 'Education'
         interests: 'Research Interests'
     design:
