@@ -68,6 +68,6 @@ sections:
     id: contact
     content:
       title: Contact
-      email: your-email@ntu.edu.sg
-      address: '[Your building, School of X], Nanyang Technological University, Singapore'
+      email: tao.huang@ntu.edu.sg
+      address: 'Nanyang Technological University, Singapore'
 ---

@@ -2,8 +2,8 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Oliver Tao Huang
-  given: Oliver
+  display: Tao Huang
+  given: Tao
   family: Huang
   alternate: ''
   pronunciation: ''
@@ -12,10 +12,9 @@ postnominals:
   - PhD
 status:
   icon: ""
-role: Assistant Professor
+role: Assistant Professor of Climate and Health
 bio: |
-  Oliver Tao Huang is an Assistant Professor at Nanyang Technological University (NTU), Singapore.
-  His research focuses on [your research area]. He is interested in [specific topics].
+  Dr Huang Tao's research focuses on advancing the understanding of climate extremes and their impacts on human health, with an emphasis on heat-related risks under climate change. His particular research focus is on humid heat impacts on psychiatric disorders and cardiovascular diseases, and how to establish a multi-phase heat early warning system to protect vulnerable populations under climate change. His broader interests include physio-climatic heatwave identification, AI-driven heatwave attribution and forecasting, and the assessment of heat–health impacts across different populations and settings. He also works on projecting future heat-related health burdens under climate change, and on developing low-cost strategies for heat-risk mitigation and intervention to support climate adaptation and public health decision-making.
 
 affiliations:
   - name: Nanyang Technological University
@@ -23,41 +22,34 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:your-email@ntu.edu.sg
+    url: mailto:tao.huang@ntu.edu.sg
     label: E-mail Me
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=YOURPROFILEID
+    url: https://scholar.google.com/citations?user=-ZbOuCQAAAAJ&hl=en
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/tao-huang-271927229/
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0003-3607-5314
   - icon: brands/github
     url: https://github.com/Huangtao0909
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/yourprofile/
-  - icon: academicons/orcid
-    url: https://orcid.org/YOUR-ORCID
 
 interests:
-  - Research Area 1
-  - Research Area 2
-  - Research Area 3
+  - Heat and mental health
+  - Heat and cardiovascular diseases
+  - Climate extremes
+  - Heat early warning systems
+  - Climate adaptation
 
 education:
-  - degree: PhD in [Field]
-    institution: [University]
-    start: 2010-09-01
-    end: 2014-06-30
-  - degree: BSc in [Field]
-    institution: [University]
-    start: 2006-09-01
-    end: 2010-06-30
-
-experience:
-  - role: Assistant Professor
-    org: Nanyang Technological University
-    start: 2020-01-01
-    summary: |
-      [Describe your current role and responsibilities.]
-  - role: Postdoctoral Researcher
-    org: [Previous Institution]
-    start: 2016-01-01
-    end: 2019-12-31
-    summary: |
-      [Describe your postdoc work.]
+  - degree: PhD
+    institution: The Chinese University of Hong Kong (CUHK)
+    start: 2018-09-01
+    end: 2021-12-31
+  - degree: MSc
+    institution: University of Chinese Academy of Sciences
+    start: 2016-09-01
+    end: 2019-06-30
+  - degree: BSc
+    institution: Nanjing University of Information Science & Technology
+    start: 2012-09-01
+    end: 2016-06-30

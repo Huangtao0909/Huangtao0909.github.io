@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Oliver Tao Huang"
+    name: "Tao Huang"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: "Nanyang Technological University"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Assistant Professor, Nanyang Technological University"
+    tagline: "Assistant Professor of Climate and Health, Nanyang Technological University"
     # Site meta description for search engines and social sharing
-    description: "Personal academic website of Oliver Tao Huang, Assistant Professor at Nanyang Technological University."
+    description: "Personal academic website of Tao Huang, Assistant Professor of Climate and Health at Nanyang Technological University."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""
