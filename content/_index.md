@@ -13,7 +13,7 @@ sections:
       username: me
       text: ''
       headings:
-        about: 'HEAT Lab — Health Effects of Atmospheric Temperature'
+        about: 'ACE-Health Lab'
         education: 'Education'
         interests: 'Research Interests'
     design:
