@@ -5,7 +5,7 @@ date: 2024-01-01
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '3rem'
 
 sections:
   - block: resume-biography-3
@@ -13,7 +13,7 @@ sections:
       username: me
       text: ''
       headings:
-        about: 'ACE-Health: AI-driven Climate Extremes attribution, multiscale Health projection, and climate-health burden mitigation'
+        about: ''
         education: 'Education'
         interests: 'Research Interests'
     design:

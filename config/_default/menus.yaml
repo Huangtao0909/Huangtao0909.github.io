@@ -7,6 +7,9 @@ main:
   - name: Home
     url: /
     weight: 10
+  - name: ACE-Health
+    url: /ace-health/
+    weight: 15
   - name: Research
     url: /research/
     weight: 20
