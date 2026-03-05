@@ -12,11 +12,8 @@ sections:
     content:
       username: me
       text: ''
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 'HEAT Lab — Health Effects of Atmospheric Temperature'
         education: 'Education'
         interests: 'Research Interests'
     design:
