@@ -1,50 +1,48 @@
 <style>
-  /* ── Reduce biography block top padding ── */
-  .resume-biography {
+  /* ── Override biography block Tailwind responsive padding at ALL breakpoints ── */
+  .resume-biography,
+  .resume-biography.py-8,
+  .resume-biography.px-4 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
   }
-
-  /* ── Tighten overall section spacing ── */
-  .home-section,
-  [class*="py-8"],
-  [class*="py-12"],
-  [class*="py-16"],
-  [class*="py-24"],
-  [class*="py-32"] {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+  @media (min-width: 640px) {
+    .resume-biography { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  }
+  @media (min-width: 768px) {
+    .resume-biography { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+  }
+  @media (min-width: 1024px) {
+    .resume-biography { padding-top: 3rem !important; padding-bottom: 3rem !important; }
+  }
+  @media (min-width: 1280px) {
+    .resume-biography { padding-top: 3rem !important; padding-bottom: 3rem !important; }
   }
 
-  /* ── Navbar: clean left-aligned brand ── */
-  .navbar-brand {
-    font-weight: 600;
-    letter-spacing: -0.01em;
+  /* ── Navbar: thinner, cleaner ── */
+  header nav {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
   }
 
-  /* ── Section titles: smaller, understated ── */
-  h2.section-heading,
-  .section-heading h2 {
-    font-size: 1.1rem !important;
-    font-weight: 600 !important;
+  /* ── Section titles: smaller, uppercase, understated ── */
+  h2.hb-section-title {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #1a3a5c;
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
+    letter-spacing: 0.1em;
+    color: #1a3a5c !important;
   }
 
-  /* ── News/talks list: clean chronological style ── */
-  .view-date-title-summary article {
+  /* ── Tighten spacing between home sections ── */
+  section.hb-section {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  /* ── News / talks list items ── */
+  .hb-collection article {
     border-bottom: 1px solid #f0f0f0;
-    padding: 0.75rem 0;
-  }
-
-  /* ── Reduce avatar size on mobile ── */
-  @media (max-width: 768px) {
-    .resume-biography {
-      padding-top: 1rem !important;
-    }
+    padding: 0.6rem 0 !important;
   }
 </style>
