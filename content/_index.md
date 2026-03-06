@@ -27,18 +27,6 @@ sections:
         shape: circle
 
   - block: collection
-    id: papers
-    content:
-      title: Selected Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: citation
-      columns: 1
-
-  - block: collection
     id: news
     content:
       title: News
