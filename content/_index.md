@@ -39,32 +39,14 @@ sections:
       columns: 1
 
   - block: collection
-    id: talks
-    content:
-      title: Recent Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: date-title-summary
-      columns: 1
-
-  - block: collection
     id: news
     content:
-      title: Recent News
-      count: 5
+      title: News
+      count: 10
       filters:
         folders:
           - blog
       order: desc
     design:
       view: date-title-summary
-
-  - block: contact-info
-    id: contact
-    content:
-      title: Contact
-      email: tao.huang@ntu.edu.sg
-      address: 'Nanyang Technological University, Singapore'
 ---
